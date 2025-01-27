@@ -57,7 +57,5 @@ CMD [ "echo", "Successfully installed!" ]
 ## curl commands for testing. 
 #> curl -X POST http://localhost:11434/api/generate -d '{  "model": "deepseek-r1",  "prompt":"What is water?"}'
 
-#> python ./sched-code-8.py deepseek-r1
-
 ## Use Sky-T1-32B to verify: http://164.152.23.196:3000/
 
